@@ -1,11 +1,13 @@
 * {
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
+  list-style-type: none;
 }
 
 a {
   color: black;
 }
+
 
 .profile-img {
   height: 150px;
