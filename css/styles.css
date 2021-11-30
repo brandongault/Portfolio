@@ -16,6 +16,16 @@
   display: block;
 }
 
+.icon-div {
+  height:150px;
+  width: 150px;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  display: block;
+}
+
 .text {
   margin: auto;
   text-align: center;
@@ -29,11 +39,18 @@
   margin-left: auto;
   margin-top: 20px;
   display: block;
-
 }
 
+svg {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+}
 
+.icon-div {
+  background-color: black;
 
+}
 
 
 
