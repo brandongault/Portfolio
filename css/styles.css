@@ -98,13 +98,25 @@ svg {
 }
 
 .text {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
 body {
   background-color: white;
-  margin: 20px;
+}
+
+.split-1 {
+  border-top: 5px solid #FFCC66;
+  margin-top: 50px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.split-2 {
+  border-top: 5px solid #FFCC66;
+  margin-bottom: 70px;
 }
 
 /*--------------------TABLET------------------------*/
