@@ -2,12 +2,17 @@
   font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
   list-style-type: none;
+  color: #FFFDD0;
 }
 
 a {
   color: black;
 }
 
+body {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
 
 .profile-img {
   height: 150px;
@@ -78,14 +83,15 @@ a {
   border-style: solid;
   border-width: 5px;
   border-color:  #FFCC66; /*gold*/
-  background-color: white;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .icon-text {
-  color: black;
+  color: #FFFDD0;
   margin-top: auto;
   text-align: center;
 }
@@ -95,7 +101,6 @@ a {
   margin-top: 25px;
   height: 3rem;
   width: 3rem;
-
 }
 
 .text {
@@ -107,10 +112,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-body {
-  background-color: white;
 }
 
 .split-1 {
@@ -142,7 +143,6 @@ body {
   border-style: solid;
   border-width: 3px;
   border-color:  #FFCC66; /*gold*/
-  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -190,7 +190,7 @@ body {
 
 .effect:hover,
 .effect:focus {
-  box-shadow: 0em 0.5em 0.5em -0.4em blue;
+  box-shadow: 0em 0.5em 0.5em -0.4em #FFFDD0;
   transform: translateY(-0.25em);
 }
 
