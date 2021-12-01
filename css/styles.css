@@ -129,6 +129,14 @@ body {
   margin-left: 10%;
 }
 
+.split-3 {
+  border-top: 3px solid #FFCC66;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
 #about,
 #skills,
 #social {
@@ -155,6 +163,10 @@ body {
 .col {
   margin-bottom: 10px;
 }
+
+/*-----------------------------------------------------------
+---------------------- SVGs ------------------------
+-----------------------------------------------------------*/
 
 /*----------SOCIAL SVG---------------*/
 

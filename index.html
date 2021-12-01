@@ -215,12 +215,33 @@
 --------------------- CONTACT -----------------------
 ---------------------------------------------------->
 
-  <div class="split-1">
-    <h2 class="text">Contact</h2>
-      <div class="split-2"></div>
-        <p class="contact-text"><strong>EMAIL:</strong><br>brandongault8@gmail.com</p>
-        <p class="contact-text"><strong>PHONE:</strong><br> 269-535-9493</p>
-  </div>
+
+    <div class="split-3">
+      <h2 class="text" id="social">Contact</h2>
+    </div>
+      <div class="split-1"></div>
+
+      <div class="social-container">
+
+<!-- email -->
+        <div class="social-div effect">
+            <div class="social-icon">
+              <a href="mailto: brandongault8@gmail.com">
+                <img class="social-svg" src="images/email.svg" alt="icon of email">
+              </a>
+            </div>
+        </div>
+
+<!-- telephone -->
+        <div class="social-div effect">
+            <div class="social-icon">
+              <a href="tel:2695359493" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+                <img class="social-svg" src="images/telephone.svg" alt="icon of a telephone">
+              </a>
+            </div>
+        </div>
+
+      </div> <!-- grid-container end -->
 
   </body>
 </html>
