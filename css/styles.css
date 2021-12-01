@@ -44,12 +44,6 @@ a {
   display: block;
 }
 
-svg {
-  height: 3rem;
-  width: 3rem;
-  display: flex;
-}
-
 .icon-div {
   background-color: black;
 
@@ -164,11 +158,41 @@ body {
 
 /*----------SOCIAL SVG---------------*/
 
+.social-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.social-div {
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color:  #FFCC66; /*gold*/
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .social-svg {
   height: 50px;
   width: 50px;
 }
 
+/*----------HOVER EFFECTS---------------*/
+
+.effect:hover,
+.effect:focus {
+  box-shadow: 0em 0.5em 0.5em -0.4em blue;
+  transform: translateY(-0.25em);
+}
 
 }
 
@@ -191,6 +215,12 @@ body {
     border-radius: 360px;
   }
 
+  .social-container {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+
 }
 
 /*--------------------DESKTOP------------------------*/
@@ -198,6 +228,11 @@ body {
 
   .col {
     width: 25%;
+  }
+
+  .social-container {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
 }
