@@ -56,7 +56,6 @@ body {
 
   .mydivheader {
     cursor: move;
-    background-color: green;
   }
 
 /*-----------------------------------------------------------
@@ -156,10 +155,16 @@ body {
   margin-bottom: -15px;
 }
 
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .skill-container {
   display: grid;
   grid-template-columns: 1fr;
-  height: 500px;
+  height: 1400px;
+  margin-bottom: 25px;
 }
 
 .skill-div {
@@ -172,14 +177,16 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 15px;
   margin-top: 15px;
 }
 
 .col {
+  height: 150px;
+  width: 150px;
   margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*-----------------------------------------------------------
@@ -239,14 +246,17 @@ body {
 /*--------------------TABLET------------------------*/
 @media only screen and (min-width: 768px) {
 
-  .skill-container {
+  .skill-container,
+  .project-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-  .col {
-    width: 50%;
-  }
+.skill-container {
+  height: 800px;
+  margin-bottom: 10px;
+}
+
 
   .profile-img {
     height: 315px;
@@ -264,6 +274,11 @@ body {
 /*--------------------DESKTOP------------------------*/
 @media only screen and (min-width: 1024px) {
 
+  .skill-container {
+    height: 500px;
+    margin-bottom: -35px;
+  }
+
   .about-box {
     margin-left: 20%;
     margin-right: 20%;
@@ -271,7 +286,7 @@ body {
   }
 
   .col {
-    width: 25%;
+    width: 150px;
   }
 
   .social-container {
