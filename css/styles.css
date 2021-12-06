@@ -43,6 +43,19 @@ body {
   }
 
 
+  .mydiv {
+    position: absolute;
+    z-index: 4;
+  }
+
+  .mydivheader {
+    cursor: move;
+  }
+
+  .drag-col {
+
+  }
+
 /*-----------------------------------------------------------
 ---------------------- MEDIA QUERIES ------------------------
 -----------------------------------------------------------*/
@@ -140,9 +153,15 @@ body {
   margin-bottom: -15px;
 }
 
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .skill-container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  height: 1425px;
 }
 
 .skill-div {
@@ -161,8 +180,18 @@ body {
   margin-top: 15px;
 }
 
+.drag-col {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .col {
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*-----------------------------------------------------------
@@ -228,9 +257,16 @@ body {
 @media only screen and (min-width: 768px) {
 
   .skill-container {
-    display:flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+    height: 800px;
 }
+
+  .drag-col {
+    height: 150px;
+    width: 150px;
+  }
 
   .col {
     width: 50%;
@@ -251,6 +287,18 @@ body {
 
 /*--------------------DESKTOP------------------------*/
 @media only screen and (min-width: 1024px) {
+
+  .skill-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: auto;
+    height: 450px;
+}
+
+  .drag-col {
+    height: 150px;
+    width: 150px;
+  }
 
   .about-box {
     margin-left: 20%;
