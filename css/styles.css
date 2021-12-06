@@ -52,9 +52,6 @@ body {
     cursor: move;
   }
 
-  .drag-col {
-
-  }
 
 /*-----------------------------------------------------------
 ---------------------- MEDIA QUERIES ------------------------
@@ -208,6 +205,8 @@ body {
 .social-container {
   display: flex;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-div {
@@ -224,11 +223,6 @@ body {
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.social-container {
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
 .social-svg {
