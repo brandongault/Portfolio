@@ -42,21 +42,6 @@ body {
     color: #fff;
   }
 
-  /*-----------------------------------------------------------
-  ---------------------- JS CSS -------------------------------
-  -----------------------------------------------------------*/
-
-  /*--------------------DRAGGABLE ELEMENTS---------------------*/
-
-  .mydiv {
-    position: absolute;
-    z-index: 9;
-    background-color: rgba(0, 0, 0, 0);
-  }
-
-  .mydivheader {
-    cursor: move;
-  }
 
 /*-----------------------------------------------------------
 ---------------------- MEDIA QUERIES ------------------------
@@ -155,16 +140,9 @@ body {
   margin-bottom: -15px;
 }
 
-.project-container {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
 .skill-container {
   display: grid;
   grid-template-columns: 1fr;
-  height: 1400px;
-  margin-bottom: 25px;
 }
 
 .skill-div {
@@ -177,17 +155,20 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 15px;
   margin-top: 15px;
 }
 
 .col {
-  height: 150px;
-  width: 150px;
   margin-bottom: 10px;
-  margin-right: auto;
-  margin-left: auto;
 }
+
+/*-----------------------------------------------------------
+---------------------- JS CSS ------------------------
+-----------------------------------------------------------*/
+
 
 /*-----------------------------------------------------------
 ---------------------- SVGs ------------------------
@@ -246,17 +227,14 @@ body {
 /*--------------------TABLET------------------------*/
 @media only screen and (min-width: 768px) {
 
-  .skill-container,
-  .project-container {
-    display: flex;
+  .skill-container {
+    display:flex;
     flex-wrap: wrap;
 }
 
-.skill-container {
-  height: 800px;
-  margin-bottom: 10px;
-}
-
+  .col {
+    width: 50%;
+  }
 
   .profile-img {
     height: 315px;
@@ -274,11 +252,6 @@ body {
 /*--------------------DESKTOP------------------------*/
 @media only screen and (min-width: 1024px) {
 
-  .skill-container {
-    height: 500px;
-    margin-bottom: -35px;
-  }
-
   .about-box {
     margin-left: 20%;
     margin-right: 20%;
@@ -286,7 +259,7 @@ body {
   }
 
   .col {
-    width: 150px;
+    width: 25%;
   }
 
   .social-container {
