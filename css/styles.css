@@ -56,7 +56,6 @@ body {
 
   .mydivheader {
     cursor: move;
-    z-index: 10;
     background-color: green;
   }
 
@@ -160,6 +159,7 @@ body {
 .skill-container {
   display: grid;
   grid-template-columns: 1fr;
+  height: 500px;
 }
 
 .skill-div {
@@ -240,7 +240,7 @@ body {
 @media only screen and (min-width: 768px) {
 
   .skill-container {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 

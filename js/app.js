@@ -3,7 +3,7 @@ var offset = 5;
 var mydivs = document.getElementsByClassName("mydiv");
 for (var i = 0; i < mydivs.length; i++) {
   dragElement(mydivs[i]);
-  mydivs[i].style.left = offset + "px";
+  mydivs[i].style = offset + "px";
   offset = offset + mydivs[i].offsetWidth + 5;
 }
 
